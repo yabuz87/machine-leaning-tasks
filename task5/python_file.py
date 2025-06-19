@@ -55,7 +55,7 @@ for epoch in range(epochs):
             err_x1 = x1 - pred_x1
             err_x2 = y_batch - softmax(x2)
 
-            # 🔧 FIXED: transpose W2 here to avoid shape mismatch
+            # transpose W2 here to avoid shape mismatch
             x1 += lr_s * (tf.linalg.matmul(W1, err_x0) - tf.linalg.matmul(tf.transpose(W2), err_x2))
             x2 += lr_s * (tf.linalg.matmul(W2, err_x1) + err_x2)
                # Weight updates
