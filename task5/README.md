@@ -1,7 +1,7 @@
  Predictive Coding Neural Network for MNIST Classification
 
  🧠 Objective  
-This project implements a minimalist predictive coding neural network to classify handwritten digits from the MNIST dataset. It simulates biologically inspired computation by using prediction errors across network layers, latent state refinement, and lateral connections to encode spatial structure in the input.
+This task implements a minimalist predictive coding neural network to classify handwritten digits from the MNIST dataset. It simulates biologically inspired computation by using prediction errors across network layers, latent state refinement, and lateral connections to encode spatial structure in the input.
 
 ---
 
