@@ -49,7 +49,7 @@ Predictive coding is a neuro-inspired approach where higher layers attempt to pr
 
 | Epoch | Accuracy |
 |-------|----------|
-| 1–7   | 9.87%    |
+| 1–7   | 100%    |
 
 **Observations:**  
 - Accuracy remained near 10%, equivalent to random guessing  
